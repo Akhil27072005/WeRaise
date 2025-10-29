@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@supabase/postgrest-js": "^2.76.1",
+    "@supabase/realtime-js": "^2.76.1",
+    "@supabase/storage-js": "^2.76.1",
+    "@supabase/supabase-js": "^2.76.1",
+    "pg-types": "^4.1.0",
+    "postgresql-client": "^2.13.0",
+    "uuid": "^13.0.0"
+  }
+}

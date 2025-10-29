@@ -1,0 +1,116 @@
+# =====================================================
+# Dependencies
+# =====================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+# package-lock.json should be committed (removed from ignore)
+
+# =====================================================
+# Build outputs
+# =====================================================
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+*.js.map
+
+# Backend compiled files
+backend/dist/
+
+# Frontend build files
+client/dist/
+client/build/
+
+# =====================================================
+# Environment variables
+# =====================================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+!**/.env.example
+
+# =====================================================
+# Logs
+# =====================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =====================================================
+# IDE and Editor files
+# =====================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.vscode-test/
+
+# =====================================================
+# OS files
+# =====================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =====================================================
+# Testing
+# =====================================================
+coverage/
+*.coverage
+.nyc_output/
+*.test.js.map
+
+# =====================================================
+# Temporary files
+# =====================================================
+*.tmp
+*.temp
+*.cache
+.cache/
+.temp/
+
+# =====================================================
+# Database
+# =====================================================
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# =====================================================
+# Miscellaneous
+# =====================================================
+*.local
+.history/
+.parcel-cache/
+.next/
+out/
+.cache/
+.turbo/
+
